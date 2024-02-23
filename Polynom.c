@@ -84,7 +84,8 @@ void printPolynom(Polynom polynom){
 }
 
 void deletePolynom(Polynom polynom){
-    for(int i = 0; i < polynom.numOfElements; i++ )
+    int i;
+    for(i=0;i<SIZE; i++ )
         if (polynom.monoms[i] != NULL) 
             free(polynom.monoms[i]);
 }
