@@ -24,7 +24,7 @@ void printMonom(Monom* monom){
         } else {
             if (monom->coefficient == -1) 
                 printf(monom->power != 0 ? "-" : "-1");
-                /*if (monom->coefficient == -1) {
+                /*{
                  if (monom->power != 0) {
                  printf("-");
                 } else {
